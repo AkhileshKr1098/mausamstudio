@@ -1,0 +1,166 @@
+@media only screen and (max-width: 2500px) {
+    .page-wrapper {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .atf-single-text h1 {
+        font-size: 40px;
+    }
+    .atf-program-img {
+        margin-top: 60px;
+    }
+    .atf-slider .atf-parallax-slider .atf-slider-content h1 {
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .slicknav_nav ul {
+        width: 200px;
+    }
+    .atf-nav .menu-item-has-children i {
+        display: none;
+    }
+    .about-image {
+        margin-bottom: 40px;
+    }
+    .atf-banner.style2 .atf-banner-content {
+        padding: 150px 0 150px;
+    }
+    .atf-hire-area .atf-themes-btn {
+        margin: 10px 18px;
+    }
+    .atf-about.style1 .margin-20 {
+        margin-top: 30px;
+    }
+    .atf-single-text h1 {
+        font-size: 35px;
+    }
+    .atf-feature-content {
+        margin: 15px 0;
+    }
+    .atf-about-inner {
+        padding-top: 40px;
+    }
+    .atf-counter {
+        margin: 15px 0;
+    }
+    .atf-footer-link {
+        margin: 15px 0px;
+    }
+    .atf-mailchamp-headding h2 {
+        font-size: 25px;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .atf-banner.style2 .atf-program-img .waves-box {
+        left: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .atf-slider .atf-parallax-slider .atf-slider-content h1 {
+        font-size: 60px;
+    }
+    .atf-single-service .service-content li::before {
+        left: 142px;
+    }
+    .atf-banner-area.style4 .atf-single-details h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .form-message {
+        padding-bottom: 30px;
+    }
+    .atf-banner.style2 .atf-banner-content .atf-title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    #atf-map-area {
+        margin-bottom: 0px;
+    }
+    .atf-best-single-service {
+        margin: 10px 0;
+    }
+    .atf-slider.slider2 .slider .atf-content-part .atf-subtitle {
+        font-size: 45px;
+    }
+    .atf-banner.style2 .atf-program-img .waves-box {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .atf-mailchamp-headding h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .atf-slider .swiper-control-btn .swiper-nav-control {
+        display: none;
+    }
+    .atf-slider.slider1 .container .atf-silder-content .atf-silder-title {
+        margin-bottom: 0px;
+    }
+    .atf-slider.slider1 .container .atf-silder-content {
+        padding: 25px 35px 35px;
+    }
+    .atf-contact-info {
+        margin-right: 0;
+    }
+    .atf-post-details.atf-style1 .embed-responsive {
+        display: none;
+    }
+    .comments-area .children {
+        padding-left: 20px;
+    }
+    .atf-hire-content h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .atf-slider .atf-parallax-slider .atf-slider-content h1 {
+        font-size: 40px;
+    }
+    .atf-banner-area.style4 .atf-single-details h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .atf-main-responsive-nav .logo {
+        width: 60%;
+    }
+    .atf-slider.slider2 .slider .atf-content-part .atf-subtitle {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .atf-slider.slider2 .slider .atf-content-part .atf-title {
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .atf-banner.style2 .atf-program-img .waves-box {
+        left: 55% !important;
+    }
+    .atf-single-service .service-content li::before {
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+    .atf-contact-details {
+        margin: 15px 0;
+    }
+    .atf-slider.slider2 .slider .atf-content-part .atf-subtitle {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .atf-slider.slider2 .slider .atf-content-part .atf-title {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .atf-banner.style2 .atf-program-img .waves-box {
+        left: 65% !important;
+    }
+}
