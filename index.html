@@ -619,7 +619,7 @@
                             </ul>
                         </div>
                     </div>
-                   
+
                 </div>
                 <!--- END COL -->
 
@@ -779,7 +779,8 @@
                                 <span><i class="fas fa-video"></i></span>
                             </div>
                             <h3 class="title">Video <span>Graphic</span></h3>
-                            <p class="description">Our video graphic services enhance your content with captivating visuals and animations that effectively communicate your message.</p>
+                            <p class="description">Our video graphic services enhance your content with captivating
+                                visuals and animations that effectively communicate your message.</p>
                         </div>
                     </div>
 
@@ -790,7 +791,8 @@
                                 <span><i class="fas fa-camera-retro"></i></span>
                             </div>
                             <h3 class="title">Final <span>Shoting</span></h3>
-                            <p class="description">Our final shooting captures the essence of your event with professional techniques, ensuring every moment is beautifully documented.</p>
+                            <p class="description">Our final shooting captures the essence of your event with
+                                professional techniques, ensuring every moment is beautifully documented.</p>
                         </div>
                     </div>
 
@@ -801,7 +803,8 @@
                                 <span><i class="fas fa-photo-video"></i></span>
                             </div>
                             <h3 class="title">Photo <span>Graphy</span></h3>
-                            <p class="description">Our photography services capture stunning images that tell your unique story, ensuring every moment is beautifully preserved.</p>
+                            <p class="description">Our photography services capture stunning images that tell your
+                                unique story, ensuring every moment is beautifully preserved.</p>
                         </div>
                     </div>
                 </div>
@@ -824,7 +827,9 @@
 
                     <div class="col-lg-6">
                         <div class="atf-section-title text-left">
-                            <p class=" border-left ps-5">Check out what our clients are saying on Google! We are dedicated to providing exceptional service that turns moments into memories through our photography and videography.</p>
+                            <p class=" border-left ps-5">Check out what our clients are saying on Google! We are
+                                dedicated to providing exceptional service that turns moments into memories through our
+                                photography and videography.</p>
                         </div>
                     </div>
                     <!--- END COL -->
@@ -842,7 +847,8 @@
                                 </div>
 
                                 <p class="description">
-                                    Mausam Studio captured our special moments beautifully! Their professionalism and creativity made our event unforgettable.
+                                    Mausam Studio captured our special moments beautifully! Their professionalism and
+                                    creativity made our event unforgettable.
                                 </p>
                                 <h3 class="testimonial-title">Al-Mubdi</h3>
                                 <small class="post">Web Designer</small>
@@ -1139,15 +1145,15 @@
                         <div class="col-lg-7 col-12 d-block mx-auto my-auto" data-aos="fade-up">
                             <div class="contact">
                                 <h4>Send a Message</h4>
-                                <form id="contact-form" class="atf-contact-form form" method="POST"
-                                    action="assets/php/mail.php">
+                                <div id="response"></div>
+                                <form id="contact-form">
                                     <div class="row">
                                         <div class="form-group col-md-6">
                                             <input type="text" name="name" class="form-control" id="name"
                                                 placeholder="Your Name" required="required">
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <input type="email" name="email" class="form-control" id="form_email"
+                                            <input type="email" name="email" class="form-control" id="email"
                                                 placeholder="Your Email" required="required">
                                         </div>
                                         <div class="form-group col-md-6">
@@ -1155,13 +1161,14 @@
                                                 placeholder="Your Subject" required="required">
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <input type="text" name="mobile" class="form-control" id="mobile"
+                                            <input type="number" name="phone" class="form-control" id="phone"
                                                 placeholder="Your Mobile" required="required">
                                         </div>
 
                                         <div class="form-group col-md-12">
-                                            <textarea rows="6" name="message" class="form-control" id="message"
-                                                placeholder="Your Message" required="required"></textarea>
+                                            <textarea name="message" class="form-control" id="message"
+                                                placeholder="Your Message" required="required">
+                                            </textarea>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="text-left atf-contact-btn">
@@ -1172,7 +1179,7 @@
                                         </div>
                                     </div>
                                 </form>
-                                <p class="form-message"></p>
+                                <!-- <p class="form-message"></p> -->
                             </div>
                         </div>
                         <!-- END COL -->
@@ -1303,6 +1310,7 @@
     <script src="assets/js/form-contact.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>
