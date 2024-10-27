@@ -1,20 +1,20 @@
-$(document).ready(function(){
-    $('#contact-form').submit(function(e){
-        e.preventDefault(); // Prevent form submission
-        var formData = $(this).serialize(); // Serialize form data
-        console.log(formData);
+$(document).ready(function () {
+    $('#contact-form').submit(function (e) {
+        e.preventDefault();
+        const formData = $(this).serialize();
+
         $.ajax({
             type: 'POST',
-            url: 'send_contact.php', // PHP script for sending email
+            url: 'https://mausamstudiomailsend.vercel.app/api/sendEmail', // Updated to point to the Node.js API on Vercel
             data: formData,
             success: function (response) {
-                $('#contact-form')[0].reset(); // Reset the form
-                $('#response').html(response); // Display response
-                alert('Message Successfully Submmited'); // Show alert last
+                $('#contact-form')[0].reset();
+                $('#response').html(response.message);
+                alert('Message Successfully Submitted');
             },
             error: function () {
-                alert('Message Not Submmited');
+                alert('Message Not Submitted');
             }
         });
-    });    
+    });
 });
